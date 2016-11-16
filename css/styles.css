@@ -1,0 +1,46 @@
+/*************
+Basic Styles
+***************/
+body{
+  justify-content: space-between;
+
+}
+
+article  {
+	width: 30%;
+	border: 1px solid lightblue;
+	flex-direction: column;
+}
+
+.productTitle {
+	border: 1px dotted lightgray;
+	text-align: center;
+}
+
+.description {
+  flex-direction: column;
+}
+
+.productImage {
+	align-self: center;
+}
+.productDescription{
+	text-align: center;
+}
+
+.specifications header,
+.specifications p,
+.pricing header,
+.pricing p {
+	font-weight: bold;
+}
+
+
+
+/*****************
+Flex formating
+***************/
+
+.flex {
+	display: flex;
+}
