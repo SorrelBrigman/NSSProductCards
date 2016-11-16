@@ -35,7 +35,9 @@ article  {
 	font-weight: bold;
 }
 
-
+.avail {
+	background-color: darkgrey;
+}
 
 /*****************
 Flex formating
